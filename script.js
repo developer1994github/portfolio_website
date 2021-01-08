@@ -1,5 +1,33 @@
+import React from 'react';
+import ReactDOM from 'react-dom';
+import './index.css';
+
+class Header extends React.Component {
+	render () {
+		return (
+			<div>
+				<h1>
+}
+
+class Slideshow extends React.Component {
+	setInterval(function() {
+
+	}
+	render () {
+		return (
+			<div>
+				<div>
+					<img>
+}
+
+class Intro extends React.Component {
+	render () {
+		return (
+			<p>
+}
 
 
+/*
 $(document).ready(function(){
   // BODY
   $("body").css("font-family","sans-serif");
@@ -45,9 +73,5 @@ $(document).ready(function(){
   $("p").css("background-color","green");
   $("p").css("color","white");
 
-/*
-  // SHOWCASE
-  var img = $("<img src='https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Shaqi_jrvej.jpg/1200px-Shaqi_jrvej.jpg'>");
-  $("body").append(img);
-  */
 });
+*/
