@@ -1,29 +1,53 @@
+/*
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+*/
 
 class Header extends React.Component {
 	render () {
 		return (
-			<div>
-				<h1>
+			<div></div>
+				<h1></h1>
+    );
 }
 
+/*
 class Slideshow extends React.Component {
 	setInterval(function() {
-
+    $('#slideshow > div:first')
+      .fadeOut(1000)
+      .next()
+      .fadeIn(1000)
+      .end()
+      .appendTo('#slideshow');
+    },  3000);
 	}
 	render () {
 		return (
 			<div>
 				<div>
 					<img>
+        </div>
+      </div>
+    );
+}
+*/
+class Slideshow extends React.Component {
+  //control children through passing down props from parent slide show
+}
+class Slide extends React.Component {
+  //receive passes from slideshow and return slide values
+}
+class SlideImage extends React.Component {
+  //function component that holds image
 }
 
 class Intro extends React.Component {
 	render () {
 		return (
-			<p>
+			<p></p>
+    );
 }
 
 
